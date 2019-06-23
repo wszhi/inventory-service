@@ -35,3 +35,9 @@ springfox:
     swagger:
       v2:
         path: /swagger
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8080/eureka/
